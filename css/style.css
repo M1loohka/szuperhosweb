@@ -1,14 +1,17 @@
 
 
 
+
 /* grid */
 
 
 *{
     margin:0;
     box-sizing: border-box;
-    background-color: #fbfcfc ;
+    background-color: #232B2B;
+    font-family: "Audiowide", sans-serif;
 }
+
 
 .container{
     max-width: 1200px;

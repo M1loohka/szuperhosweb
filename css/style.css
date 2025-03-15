@@ -25,7 +25,38 @@ body{
 }
 /*navbar*/
 
+.navbar{
+display: inline-block;
+width: 100%;
+text-align: center;
+height: 30px;
+top: 0;
+left: 0;
+padding: 5px;
+text-decoration: none;}
 
+.oldalneve{
+    padding: 10px;
+}
+
+.linkek > a{
+    padding: 5px;
+}
+
+ .linkek > a:hover{
+    background-color: #64dd17;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#csapatcim{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
 
 
 /* Csapat oldal CSS cards */

@@ -19,6 +19,8 @@
 .margin-10{
     margin: 10px;
 }
+/*navbar*/
+
 
 
 
@@ -66,7 +68,14 @@
 .card:hover::before{
     width: 100%;
 }
-
+/*footer*/
+footer{
+    text-align:center;
+    background-color: #262626;
+    color:#fff;
+    padding:3%;
+    margin-top: 5%;
+}
 
 /* grid */
 

@@ -45,6 +45,7 @@ text-decoration: none;}
 
  .linkek > a:hover{
     background-color: #64dd17;
+    border-radius: 10px;
 }
 
 a{

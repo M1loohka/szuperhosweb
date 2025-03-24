@@ -5,7 +5,7 @@ body{
 }
 
 .bg-red{
-    background-color: e82e00;
+    background-color: #e82e00;
 }
 
 .bg-green{
@@ -23,25 +23,63 @@ body{
 .margin-10{
     margin: 10px;
 }
+
+h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.karakter_tartalom{
+    width: 50%;
+    height: 600px;
+    text-align: left;
+    display: inline-block;
+}
+
+.karakter_cim{
+    font: 300;
+    text-align: center;
+}
+
+.tartalom{
+    padding: 5px;
+font-size: 16px;
+}
+
+.karakter_kep_conatiner{
+    width: 50%;
+    text-align: left;
+display: inline-block;
+
+}
+
+
 /*navbar*/
 
 .navbar{
 display: inline-block;
 width: 100%;
-text-align: center;
 height: 30px;
+text-align: center;
 top: 0;
 left: 0;
 padding: 5px;
-text-decoration: none;}
+text-decoration: none;
+font-size: 18px;
+margin: 0;}
+
 
 .oldalneve{
     padding: 10px;
+
 }
 
 .linkek > a{
     padding: 5px;
 }
+   
 
  .linkek > a:hover{
     background-color: #64dd17;

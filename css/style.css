@@ -28,6 +28,7 @@ h1{
     margin: 20px;
     text-align: center;
     font-weight: 300;
+    color: rgb(102, 102, 255);
 
 }
 
@@ -41,18 +42,24 @@ h1{
 .karakter_cim{
     font: 300;
     text-align: center;
+    color: rgb(102, 102, 255);
 }
 
 .tartalom{
     padding: 5px;
 font-size: 16px;
+color: whitesmoke;
+text-align: center;
 }
 
-.karakter_kep_conatiner{
+.karakter_kep_container{
     width: 50%;
     text-align: left;
 display: inline-block;
 
+}
+.karakter_kep{
+    border-radius: 10px;
 }
 
 
@@ -82,7 +89,7 @@ margin: 0;}
    
 
  .linkek > a:hover{
-    background-color: #64dd17;
+    background-color:  rgb(102, 102, 255);
     border-radius: 10px;
 }
 
@@ -95,6 +102,8 @@ a{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 13px;
+    color: rgb(102, 102, 255);
+    
 }
 
 
@@ -134,7 +143,7 @@ a{
     bottom: 0;
     width: 7px;
     height: 100%;
-    background: linear-gradient(-45deg, #2e7d32 0%, #64dd17 100% );
+    background: linear-gradient(-45deg, rgb(102, 102, 255) 0%, rgb(146, 146, 255) 100% );
     z-index: -1;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }

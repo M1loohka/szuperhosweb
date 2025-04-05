@@ -3,6 +3,57 @@ body{
     background-color: #262626;
 
 }
+header{
+    background-color: #ffffff; 
+   font-size: 0;
+}
+.logo img{
+    height: 5rem;
+    vertical-align: middle;
+}
+.logo, nav{
+    display: inline-block;
+}
+.logo{
+    width: 40%;
+    font-size:1.5rem;
+    padding:1%;
+}
+nav{
+    width: 60%;
+    font-size:1.4rem;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 3%;
+    letter-spacing:1px ;
+}
+.logo span{
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.logo span{
+    padding: 10px;
+
+}
+
+nav > a{
+    padding: 5px;
+    color: #262626;
+}
+   
+
+ nav > a:hover{
+    background-color:  rgb(102, 102, 255);
+    border-radius: 10px;
+    color: #4e4e4e;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .bg-red{
     background-color: #e82e00;
@@ -75,38 +126,10 @@ width: 367px;
 
 /*navbar*/
 
-.navbar{
-display: inline-block;
-width: 100%;
-height: 30px;
-text-align: center;
-top: 0;
-left: 0;
-padding: 5px;
-text-decoration: none;
-font-size: 18px;
-margin: 0;}
 
 
-.oldalneve{
-    padding: 10px;
 
-}
 
-.linkek > a{
-    padding: 5px;
-}
-   
-
- .linkek > a:hover{
-    background-color:  rgb(102, 102, 255);
-    border-radius: 10px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
 
 #csapatcim{
     text-align: center;

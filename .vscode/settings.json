@@ -1,0 +1,13 @@
+{
+    "files.autoSave": "off",
+    "editor.wordWrap": "on",
+    "editor.insertSpaces": true,
+    "editor.autoClosingDelete": "never",
+    "editor.formatOnType": false,
+    "notebook.formatOnSave.enabled": false,
+    "editor.find.cursorMoveOnType": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "none",
+    "terminal.integrated.cursorBlinking": false
+}

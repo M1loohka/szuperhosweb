@@ -2,9 +2,10 @@
 body{
     background-color: #262626;
 
+    /*navbar*/
 }
 header{
-    background-color: #ffffff; 
+    background-color:  #262626; 
    font-size: 0;
 }
 .logo img{
@@ -32,22 +33,19 @@ nav{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
-}
-.logo span{
     padding: 10px;
-
+    color: #ffffff;
 }
+
 
 nav > a{
     padding: 5px;
-    color: #262626;
+    color: #ffffff;
 }
    
-
  nav > a:hover{
     background-color:  rgb(102, 102, 255);
     border-radius: 10px;
-    color: #4e4e4e;
 }
 
 a{
@@ -55,25 +53,7 @@ a{
     color: white;
 }
 
-.bg-red{
-    background-color: #e82e00;
-}
 
-.bg-green{
-    background-color: #64dd17 ;
-}
-
-.padding-10{
-    padding: 10px;
-}
-
-.margin-5{
-    margin: 5px;
-}
-
-.margin-10{
-    margin: 10px;
-}
 
 h1{
     margin: 20px;
@@ -90,9 +70,10 @@ h1{
 }
 
 .karakter_cim{
+    font-size: 24px;
     font: 300;
     text-align: center;
-    
+    color: linear-gradient(-45deg, rgb(102, 102, 255) 0%, rgb(146, 146, 255) 100% );
 }
 
 .tartalom{
@@ -124,13 +105,6 @@ width: 367px;
     }
 
 
-/*navbar*/
-
-
-
-
-
-
 #csapatcim{
     text-align: center;
     margin-top: 10px;
@@ -155,8 +129,8 @@ width: 367px;
     align-items: center;
     justify-content: center;
     width: 15rem;
-    height: 220px;
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    height:265px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     padding: 22px;
     overflow: hidden;
     border-radius: 12px;
@@ -262,6 +236,8 @@ footer a:hover{
     .col-sm-10{ width: calc(100% / 12 * 10 - 20px); }
     .col-sm-11{ width: calc(100% / 12 * 11 - 20px); }
     .col-sm-12{ width: calc(100% / 12 * 12 - 20px); }
+
+   
 }
 @media only screen and (min-width:768px){
     .col-lg-1{ width: calc(100% / 12 * 1 - 20px); }
@@ -276,4 +252,43 @@ footer a:hover{
     .col-lg-10{ width: calc(100% / 12 * 10 - 20px); }
     .col-lg-11{ width: calc(100% / 12 * 11 - 20px); }
     .col-lg-12{ width: calc(100% / 12 * 12 - 20px); }
+}
+
+
+@media (max-width: 600px){
+    .logo{
+        width: 100vw;
+        font-size:1rem;
+        padding:1%;
+        text-align: center;
+       
+        }
+    
+        nav{
+            width:100vw;
+            font-size:1.4rem;
+            text-align: center;
+            vertical-align: middle;
+            padding-right: 3%;
+            letter-spacing:1px ;
+        }
+
+        .karakter_tartalom{
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            
+        }
+
+        .karakter_kep_container{
+            width: 100%;
+            margin:0;
+
+        }
+        .karakter_kep_container img{
+            width: 100% ;
+
+        
+}
+
 }

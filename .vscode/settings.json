@@ -1,5 +1,5 @@
 {
-    "files.autoSave": "off",
+    "files.autoSave": "afterDelay",
     "editor.wordWrap": "on",
     "editor.insertSpaces": true,
     "editor.autoClosingDelete": "never",
